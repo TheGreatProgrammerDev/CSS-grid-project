@@ -123,7 +123,7 @@ grid-template-rows: 26% 56% 18%;
     font-weight: 100;
 }
 
-@media (max-width:600px) {
+@media (max-width:550px) {
     #main {
         grid-template-columns: 50% 50%;
         grid-template-rows: 60px 34% 8%;
@@ -163,8 +163,9 @@ grid-template-rows: 26% 56% 18%;
         }
         
         #left-center h1 {
-            font-size: 17vw;
-            line-height: 14vw;
+            font-size: 12vw;
+            line-height: 10vw;
+            margin-bottom: 10px;
         }
         
         #left-center h1:nth-child(2n) {
@@ -177,8 +178,11 @@ grid-template-rows: 26% 56% 18%;
         
         
         #left-bottom p {
-            width: 90%;
-            font-size: 10px;
+            width: 95%;
+            font-size: 12px;
+            margin-top : 10px;
+            position : relative;
+            line-height : 1.5;
         }
         
         #arrow {
